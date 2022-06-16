@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "audify": "^1.7.1"
+    "audify": "^1.7.1",
+    "command-node": "^0.1.1"
   }
 }
