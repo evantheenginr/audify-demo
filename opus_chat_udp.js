@@ -120,7 +120,7 @@ function audioStart(isStart) {
       console.log(`audio start`)
       rtAudio.start()
       timer = setInterval(() => {
-        console.log(stats);
+        console.error(stats);
         stats.pk_sent = 0;
         stats.pk_rcvd = 0;
         stats.kb_sent = 0;
@@ -158,3 +158,4 @@ var commands = {
 }
 
 commandNode.initialize(commands, 'audiopy-demo> ')
+audioStart(true)
